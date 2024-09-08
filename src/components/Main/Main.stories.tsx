@@ -7,7 +7,15 @@ export default {
   component: Main,
   parameters: {
     layout: "fullscreen"
-  }
+  },
+  tags: ["autodocs"]
 } as Meta
 
 export const Default: StoryObj = {}
+
+export const Basic: StoryObj = {
+  args: {
+    title: "title basic",
+    description: "description basic"
+  }
+}
