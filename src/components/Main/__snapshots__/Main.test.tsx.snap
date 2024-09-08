@@ -27,7 +27,7 @@ exports[`<Main /> should render the heading 1`] = `
   </h2>
   <img
     alt="Um desenvolvedor de frente para uma tela com código."
-    class="w-full max-w-72 mt-8"
+    class="mt-8 w-full max-w-72"
     data-nimg="1"
     decoding="async"
     height="0"
